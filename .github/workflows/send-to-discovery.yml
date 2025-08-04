@@ -3,7 +3,7 @@ name: Send Discovered API to ApiConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: prontefflabs.com
+  API_HOST: apim.prontefflabs.com
   PROVIDER_ORG: internal-labs
   API_FILES: photos.yaml
   #API_FILES: APIfolder/uber-api.json
