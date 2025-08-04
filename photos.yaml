@@ -11,7 +11,7 @@ x-ibm-configuration:
       description: URL of the proxy policy
       encoded: false
   cors:
-    enabled: false
+    enabled: true
   gateway: datapower-api-gateway
   type: rest
   phase: realized
